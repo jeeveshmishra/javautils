@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="91" failures="0" name="TestSuite" time="0.469" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="user.country.format" value="NO"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jeeveshmishra/Development/Java/javautility"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jeeveshmishra/Development/Java/javautility"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/d2/vfzcc05n2036myb66xj2tyb00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jeeveshmishra/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/jeeveshmishra"/>
+    <property name="user.timezone" value="Europe/Oslo"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="jeeveshmishra"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="/Users/jeeveshmishra/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_difference" time="0.009"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_eliminateDuplicates" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_getSingleOrDefault_whenListContainsMultipleElements_willThrowException" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_getSingleOrDefault_whenListIsNull_willThrowException" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_getSingle_whenListContainsMultipleElements_willThrowException" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_getSingle_whenListIsNull_willThrowException" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_getSingle_whenSingleElement_willReturnElement" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_isNullOrEmpty_whenListIsEmpty" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_isNullOrEmpty_whenListIsNotNullOrEmpty" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_isNullOrEmpty_whenListIsNull" time="0"/>
+  <testcase classname="my.utils.CollectionUtilsTest" name="test_toArray" time="0.001"/>
+  <testcase classname="my.utils.CryptographyUtilsTest" name="testCryptography" time="0.073"/>
+  <testcase classname="my.utils.CryptographyUtilsTest" name="testCryptography_when_saltString_not_same" time="0.001"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_Parse_Invalid_Date" time="0.017"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_Parse_Invalid_Format" time="0"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_copy_DateTime" time="0"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_format" time="0"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_format_enum" time="0.001"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_of_Date" time="0.053"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_of_Instant" time="0"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_of_dateFormat_toXmlGregorianCalendar" time="0.004"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_of_dateTime_toXmlGregorianCalendar" time="0"/>
+  <testcase classname="my.utils.DateTimeTest" name="test_toString" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_filter" time="0.001"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_filterNot" time="0.002"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_foreach_whenNoException" time="0.002"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_foreach_whenThrowException" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_merge" time="0.001"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_merge_whenSourceIsNull" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_of_entrySet" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_of_map" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_put" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_remove" time="0"/>
+  <testcase classname="my.utils.FunctionalMapTest" name="test_values" time="0.002"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize" time="0.158"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize_invalidJson" time="0"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize_invalidJson_withDefaultValue" time="0"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize_list" time="0.039"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize_nestedObject" time="0.002"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_deserialize_strict" time="0"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_serialize" time="0.002"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_serialize_list" time="0"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_serialize_multivaluedMap" time="0"/>
+  <testcase classname="my.utils.JsonUtilsTest" name="test_serialize_nestedObject" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_filter" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_filterNot" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_firstOrDefault_byCondition" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_first_byCondition" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_get" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_last" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_lastOrDefault" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_lastOrDefault_whenSourceIsEmpty" time="0.002"/>
+  <testcase classname="my.utils.SequenceTest" name="test_map" time="0.006"/>
+  <testcase classname="my.utils.SequenceTest" name="test_max" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_max_ofInnerValue" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_min" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_min_ofInnerValue" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_remove" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_removeNullValues" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_remove_whenFilterArrayOfValues" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_remove_whenSeveralValues" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_add" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_isEmpty_whenNullSource" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_isEmpty_whenSourceIsEmpty" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_isEmpty_whenSourceIsNotEmpty" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_merge_array" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_merge_collection" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_ofArray" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_ofArray_whenSourceIsNull" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_ofList" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_ofList_whenSourceIsNull" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_ofValues" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_remove" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_removeByArray" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_removeByEmptyArray" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_removeByIndex" time="0.001"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sequence_single" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_size" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sort" time="0.002"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sortBy" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sortBy_desc" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_sort_desc" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_take" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_take_fromWithSize" time="0"/>
+  <testcase classname="my.utils.SequenceTest" name="test_take_whenSizeIsMoreThenSource" time="0"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getElementXml" time="0.06"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getElementXml_withoutNamespace" time="0.005"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getFirstChildElement" time="0.006"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getNamespace" time="0.002"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getNode" time="0.005"/>
+  <testcase classname="my.utils.XmlUtilsTest" name="test_getNode_withoutNamespace" time="0.004"/>
+</testsuite>
